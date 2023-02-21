@@ -3,6 +3,10 @@ module.exports = {
   content: ["./app/**/*.{js,jsx,ts,tsx}"],
   theme: {
     spacing: {
+      '0': '0px',
+      '0.25': '1px',
+      '0.5': '2px',
+      '0.75': '3px',
       '1': '4px',
       '2': '8px',
       '3': '12px',
