@@ -5,7 +5,7 @@ export default function WaterTower() {
       <div className="absolute left-1/2 -top-2.5 h-4 w-4">
         <div className="absolute h-0 w-0 border-x-4 border-b-4 border-x-transparent border-b-red-400"></div>
         <div
-          className="absolute top-1 left-0.25 h-1.5 w-1.5 bg-red-400"
+          className="absolute top-[3px] left-0.25 h-[7px] w-1.5 bg-red-400"
           style={{
             clipPath:
               "polygon(0 0, 100% 0, 100% 100%, 88% 100%, 88% 88%, 12% 88%, 12% 100%, 0 100%)",
