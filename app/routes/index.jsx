@@ -42,6 +42,14 @@ function OrangeBuilding({className}) {
   return (
     <svg className={className} width="200" height="250" xmlns="http://www.w3.org/2000/svg">
         <rect width="100%" height="100%" fill="rgb(253 230 138)" />
+        <rect width="3%" height="7%" fill="black" x="54%" y="8%" />
+        <rect width="3%" height="7%" fill="black" x="59%" y="8%" />
+        <rect width="3%" height="7%" fill="black" x="65%" y="8%" />
+        <rect width="3%" height="7%" fill="black" x="70%" y="8%" />
+        <rect width="3%" height="7%" fill="black" x="76%" y="8%" />
+        <rect width="3%" height="7%" fill="black" x="81%" y="8%" />
+        <rect width="3%" height="7%" fill="black" x="87%" y="8%" />
+        <rect width="3%" height="7%" fill="black" x="92%" y="8%" />
     </svg>
   )
 }
@@ -49,8 +57,10 @@ function OrangeBuilding({className}) {
 export default function Index() {
   return (
     <main className="h-full relative">
-      <PinkBuilding className="absolute bottom-0" />
-      <OrangeBuilding className="absolute bottom-0 right-0" />
+      <div className="h-full">
+        <PinkBuilding className="absolute bottom-0 left-0 scale-50 translate-y-1/2" />
+        <OrangeBuilding className="absolute bottom-0 right-0 scale-50 translate-y-1/2" />
+      </div>
     </main>
   );
 }
